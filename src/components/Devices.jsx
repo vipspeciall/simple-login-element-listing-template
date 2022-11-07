@@ -82,8 +82,11 @@ const Devices = (props) => {
       <div className='container'>
         <div className="container py-5">
               <div className="row text-center text-white mb-5">
-                  <div className="col-lg-7 mx-auto">
-                      <h1 className="display-4">Device List</h1>
+                  <div className="col-lg-12 mx-auto">
+                      <h1 className="display-4" style={{color: "black"}}>User Token <strong>{props.userToken}</strong></h1>
+                  </div>
+                  <div className="col-lg-12 mx-auto">
+                      <h2 className="display-4" style={{color: "black"}}>Device List</h2>
                   </div>
               </div>
               <div className="row">
